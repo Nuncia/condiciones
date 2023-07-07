@@ -1,0 +1,99 @@
+body{  
+    background-color: rgb(27, 27, 27);
+    color: white;
+}
+
+.imagen{
+    min-height: 70vh;
+    width: 600px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: flex-end;
+    /* align-items: center; */
+    flex-direction: column;
+}
+
+img{
+    width: 100%;
+}
+
+#boton{
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* CSS parte 3 */
+.container{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#selector_uno{
+    margin-right: 20px;
+}
+
+#selector_dos{
+    margin-right: 20px;
+}
+
+/* CSS parte 2 */
+
+.contenedor{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.stickers{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.animales{
+    width: 300px;
+}
+
+.animal__uno{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.boton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.animal__dos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+input{
+    width: 200px;
+}
+
+.animal__tres{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.texto{
+    margin-top: 50px;
+}
