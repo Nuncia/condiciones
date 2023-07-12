@@ -10,15 +10,22 @@
     <title>Borde</title>
 </head>
 <body>
-    <div class="container">
+    <header class="d-flex justify-content-end pt-4">
+        <div class="btn-group" role="group" aria-label="Basic example">
+            <a href="./index.html">Borde</a>
+            <a href="./index2.html">Stickers</a>
+            <a href="./index3.html">Contraseña</a>
+          </div>
+    </header>
+    <div class="container" style="min-height: 90vh;">
         <div class="imagen">
-            <img id="imagen_conejo" src="./assets/imgs/sina-bahar-JSDwb_hyVTY-unsplash.jpg" alt="">
-        </div>
-        <div id="boton">
-            <button type="button" class="btn btn-secondary" onclick="cambioColorBorde()">Presionar</button>
-            <!-- <button type="button"  onclick="cambioColorBorde()">Presionar</button> -->
+            <img id="imagen_conejo" onclick="cambioColorBorde()" src="./assets/imgs/sina-bahar-JSDwb_hyVTY-unsplash.jpg" alt="">
         </div>
     </div>
+    <footer class="mt-2 text-center">
+        <p class="ms-4 fs-6">© TODOS LOS DERECHOS RESERVADOS.</p>
+        <p class="ms-5 "> 3 Desafíos by Mónica Ayala </p>
+    </footer>
     <script src="./assets/js/script.js"></script>
 </body>
 </html>

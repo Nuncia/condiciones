@@ -1,10 +1,28 @@
 body{  
     background-color: rgb(27, 27, 27);
+    color: rgb(184, 181, 181);
+    font-family: 'Comfortaa', cursive;
+}
+
+header{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background-color: black;
+    width: 100%;
     color: white;
 }
 
+a{
+    color: white;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+
+/* CSS parte 1 */
 .imagen{
-    min-height: 70vh;
+    min-height: 50vh;
     width: 600px;
     display: flex;
     margin-left: auto;
@@ -18,30 +36,12 @@ img{
     width: 100%;
 }
 
-#boton{
+/* #boton{
     margin: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-
-/* CSS parte 3 */
-.container{
-    min-height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-
-#selector_uno{
-    margin-right: 20px;
-}
-
-#selector_dos{
-    margin-right: 20px;
-}
+} */
 
 /* CSS parte 2 */
 
@@ -95,5 +95,23 @@ input{
 }
 
 .texto{
-    margin-top: 50px;
+    margin-bottom: 0px;
+}
+
+
+/* CSS parte 3 */
+.container{
+    min-height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#selector_uno{
+    margin-right: 20px;
+}
+
+#selector_dos{
+    margin-right: 20px;
 }
